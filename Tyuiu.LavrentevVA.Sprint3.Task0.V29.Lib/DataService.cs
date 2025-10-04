@@ -7,9 +7,10 @@ namespace Tyuiu.LavrentevVA.Sprint3.Task0.V29.Lib
         {
             double sumseries = 0;
             int i;
-            for (i = startValue; i <= stopValue; i++) ;
+            for (i = startValue; i <= stopValue; i++) 
             {
-                sumseries = sumseries + Math.Pow(value, 2 * i) + (1 / i + 1) * Math.Cos(i);
+                double term = (Math.Pow(value, 2 * i) + 1.0 / (i + 1)) * Math.Cos(value);
+                sumseries += term;
             }
             return Math.Round(sumseries, 3);
         }
