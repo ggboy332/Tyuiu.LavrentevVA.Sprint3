@@ -13,7 +13,7 @@ namespace Tyuiu.LavrentevVA.Sprint3.Task1.V21.Lib
                 multseries = multseries * Math.Pow(numerator / denominator, 3);
                 startValue++;
             }
-            return Math.Round(multseries, 3);
+            return Math.Round(multseries, 2);
         }
     }
 }
