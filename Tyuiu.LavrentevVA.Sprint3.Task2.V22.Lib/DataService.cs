@@ -9,8 +9,8 @@ namespace Tyuiu.LavrentevVA.Sprint3.Task2.V22.Lib
             int i = startValue;
             do
             {
-                double denominator = i + value - Math.Pow(i, 2);
-                double term = Math.Pow(3 / denominator, 2);
+                double denominator = i + Math.Pow(value, -i);
+                double term = Math.Pow(3.0 / denominator, 2);
                 sumseries *= term;
                 i++;
             } while (i <= stopValue);
