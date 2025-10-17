@@ -22,4 +22,3 @@ namespace Tyuiu.LavrentevVA.Sprint3.Task2.V22.Test
         }
     }
 }
-
