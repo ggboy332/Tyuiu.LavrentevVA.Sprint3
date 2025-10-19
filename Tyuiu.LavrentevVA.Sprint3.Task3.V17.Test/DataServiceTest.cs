@@ -13,7 +13,7 @@ namespace Tyuiu.LavrentevVA.Sprint3.Task3.V17.Test
 
             double res = ds.ConvertStringToInt(str);
 
-            int wait = 2;
+            int wait = 98;
 
             Assert.AreEqual(wait, res);
         }

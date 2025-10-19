@@ -5,15 +5,15 @@ namespace Tyuiu.LavrentevVA.Sprint3.Task3.V17.Lib
     {
         public int ConvertStringToInt(string value)
         {
-            int count = 0;
+            string digits = "";
             foreach (char c in value)
             {
                 if (char.IsDigit(c))
                 {
-                    count++;
+                    digits += c;
                 }
             }
-            return count;
+            return digits.Length > 0 ? int.Parse(digits) : 0;
         }
     }
 }
