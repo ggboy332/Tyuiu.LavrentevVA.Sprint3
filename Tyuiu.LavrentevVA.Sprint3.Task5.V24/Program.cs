@@ -1,11 +1,12 @@
-﻿using Tyuiu.LavrentevVA.Sprint3.Task4.V7.Lib;
+﻿using Tyuiu.LavrentevVA.Sprint3.Task5.V24.Lib;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.ConstrainedExecution;
 using System.Text;
 
-namespace Tyuiu.LavrentevVA.Sprint3.Task4.V7
+namespace Tyuiu.LavrentevVA.Sprint3.Task5.V24
 {
     internal class Program
     {
@@ -17,18 +18,24 @@ namespace Tyuiu.LavrentevVA.Sprint3.Task4.V7
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                                                                                                                                                                                            *");
             Console.WriteLine("***********************************************************************************************************************************************************************************************************************************************");
 
-            int startValue = -5;
-            int stopValue = 5;
+            int x = 2;
+            int startValue1 = 1;
+            int stopValue1 = 3;
+            int startValue2 = 1;
+            int stopValue2 = 12;
 
-            Console.WriteLine($"Старт шага = {startValue}");
-            Console.WriteLine($"Конец шага шага = {stopValue}");
+            Console.WriteLine($"Переменная X = {x}");
+            Console.WriteLine($"Старт шага первой суммы ряда = {startValue1}");
+            Console.WriteLine($"Конец шага первой суммы ряда = {stopValue1}");
+            Console.WriteLine($"Старт шага второй суммы ряда = {startValue2}");
+            Console.WriteLine($"Конец шага второй суммы ряда = {stopValue2}");
 
 
             Console.WriteLine("*********************************************************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                                                        *");
             Console.WriteLine("*********************************************************************************************************************");
 
-            Console.WriteLine($"Сумма ряда: {ds.Calculate(startValue, stopValue)}");
+            Console.WriteLine($"Сумма суммы ряда: {ds.GetSumSumSeries(x, startValue1, startValue2, stopValue1, stopValue2)}");
 
             Console.ReadKey();
 
