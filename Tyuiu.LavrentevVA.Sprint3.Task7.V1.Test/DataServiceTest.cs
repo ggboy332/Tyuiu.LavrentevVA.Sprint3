@@ -21,7 +21,7 @@ namespace Tyuiu.LavrentevVA.Sprint3.Task7.V1.Test
             valueMaitArray[2] = 18.87;
             valueMaitArray[3] = 4.96;
             valueMaitArray[4] = -9.99;
-            valueMaitArray[5] = 0.00;
+            valueMaitArray[5] = -2.00;
             valueMaitArray[6] = 2.16;
             valueMaitArray[7] = -7.54;
             valueMaitArray[8] = -22.76;
