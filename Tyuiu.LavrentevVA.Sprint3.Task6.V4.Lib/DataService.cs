@@ -9,11 +9,11 @@ namespace Tyuiu.LavrentevVA.Sprint3.Task6.V4.Lib
             int sum = 0;
             for (x = startValue; x <= stopValue; x++)
             {
-                for (int i = 9; i <= x; i++)
+                for (int i = 10; i <= x; i++)
                 {
                     if (x % i == 0)
                     {
-                        sum += i;
+                        sum ++;
                     }
                 }
             }
