@@ -13,7 +13,7 @@ namespace Tyuiu.LavrentevVA.Sprint3.Task4.V7.Test
 
             double res = ds.Calculate(startValue, stopValue);
 
-            double wait = 1.978;
+            double wait = 1231.499;
 
             Assert.AreEqual(wait, res);
         }

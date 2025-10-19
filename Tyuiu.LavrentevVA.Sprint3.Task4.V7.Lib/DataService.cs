@@ -5,7 +5,7 @@ namespace Tyuiu.LavrentevVA.Sprint3.Task4.V7.Lib
     {
         public double Calculate(int startValue, int stopValue)
         {
-            double res = 0;
+            double res = 1;
             for (int x = startValue; x <= stopValue; x++)
             {
                 if (x == 0)
@@ -14,7 +14,7 @@ namespace Tyuiu.LavrentevVA.Sprint3.Task4.V7.Lib
                 }
                 else
                 {
-                    res = res + (x / Math.Cos(x)) + 1.5;
+                    res *= (x / Math.Cos(x)) + 1.5;
                 }
             }
             return Math.Round(res, 3);
